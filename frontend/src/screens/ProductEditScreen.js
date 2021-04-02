@@ -8,7 +8,6 @@ import Loader from '../components/Loader'
 import FormContainer from '../components/FormContainer'
 import { listProductDetails, updateProduct } from '../actions/productActions'
 import { PRODUCT_UPDATE_RESET } from '../constants/productConstants'
-import { hashSync } from 'bcryptjs'
 
 const ProductEditScreen = ({ match, location, history }) => {
   const productId = match.params.id
